@@ -1,10 +1,19 @@
 # GhCalServer
 
-## Description
+**Base URL: 
 
 This is a simple application that re-serves the GitHub contributions calendar graph data, without [CORS](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing) restrictions.
 
+This application also supports [JSONP requests](http://en.wikipedia.org/wiki/JSONP).
+
 ## Usage
+
+|Method|URL|Response|
+|:------|:---:|:--------|
+|GET|/|Redirect to GitHub repo|
+|GET|/<username>|JSON of GitHub contributions data. See [here](http://github.com/users/rukmal/contributions_calendar_data) for example.|
+
+## Deployment
 
 ### Local
 
@@ -13,7 +22,7 @@ $ sudo pip install -r requirements.txt
 $ sudo python app.py
 ```
 
-## Deploy to Heroku
+## Heroku
 
 ```bash
 $ heroku create <app_name_here>
