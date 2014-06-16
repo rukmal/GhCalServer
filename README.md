@@ -1,6 +1,6 @@
 # GhCalServer
 
-**Base URL: 
+**Base URL: http://ghcalserver.herokuapp.com/**
 
 This is a simple application that re-serves the GitHub contributions calendar graph data, without [CORS](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing) restrictions.
 
