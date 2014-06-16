@@ -13,6 +13,15 @@ This application also supports [JSONP requests](http://en.wikipedia.org/wiki/JSO
 |GET|/|Redirect to GitHub repo|
 |GET|/*username*|JSON of GitHub contributions data. See [here](http://github.com/users/rukmal/contributions_calendar_data) for example.|
 
+### Response object
+
+```json
+{
+	"status": "success/failed",
+	"data": "contributions data"
+}
+```
+
 ## Deployment
 
 ### Local
