@@ -11,7 +11,7 @@ This application also supports [JSONP requests](http://en.wikipedia.org/wiki/JSO
 |Method|URL|Response|
 |:------|:---:|:--------|
 |GET|/|Redirect to GitHub repo|
-|GET|/<username>|JSON of GitHub contributions data. See [here](http://github.com/users/rukmal/contributions_calendar_data) for example.|
+|GET|/*username*|JSON of GitHub contributions data. See [here](http://github.com/users/rukmal/contributions_calendar_data) for example.|
 
 ## Deployment
 
